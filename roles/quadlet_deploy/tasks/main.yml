@@ -18,4 +18,4 @@
     loop_var: container
 
 - name: "Validate container deployment"
-  ansible.builtin.include_tasks: "verify_deployment.yml"
+  ansible.builtin.include_tasks: "validate_deployment.yml"
